@@ -21,7 +21,7 @@ library (tm)
 
 library(readr)
 
-resenas <- read_delim("D:/FCEYES/Cuarto/TFG/resenas export utf.csv", 
+resenas <- read_delim("resenas export utf.csv", 
                                  delim = ";", escape_double = FALSE, col_types = cols(Fecha = col_date(format = "%d/%m/%Y")), 
                                  trim_ws = TRUE)
 
